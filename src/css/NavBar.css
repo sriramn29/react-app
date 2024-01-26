@@ -3,5 +3,9 @@ ol{
     justify-content: space-evenly;
     list-style-type: none;
     background-color: aqua;
-    margin: 0px;
+    margin-top: 10px;
+    width: 50%;
+    border-radius: 25px;
+    margin-inline-start: 400px;
+    padding: 10px;
 }

@@ -1,6 +1,6 @@
 import logo from './logo.svg';
 import './App.css';
-//import contact from './components/functionalComponents/contact';
+
 import NavBar from './components/functionalComponents/NavBar';
 import About from './components/functionalComponents/About'
 import Skills from './components/functionalComponents/skills';
@@ -12,7 +12,7 @@ function App() {
   return (
     <div className="App">
       <BrowserRouter>
-      <NavBar/>
+      <NavBar/>.
       <Routes>
         <Route path="/Home" element = {<Home/>}></Route>
         <Route path="/About" element = {<About/>}></Route>
@@ -37,7 +37,7 @@ function App() {
       </header>
       <footer>
         <h1>This is the contact</h1>
-      </footer>
+      </footer> 
     </div>
   );
 }

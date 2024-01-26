@@ -36,3 +36,11 @@
     transform: rotate(360deg);
   }
 }
+
+footer{
+  background-color: yellow;
+  width: 60%;
+  margin-inline-start: 300px;
+  border-radius: 25px;
+  bottom: 0;
+}
