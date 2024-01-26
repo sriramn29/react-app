@@ -1,7 +1,7 @@
 const Login = () => {
     return(
         <div>
-            This page is ment for ur login
+            <h1>This page is ment for ur login</h1>
         </div>
     )
 }

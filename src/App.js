@@ -1,5 +1,6 @@
 import logo from './logo.svg';
 import './App.css';
+//import contact from './components/functionalComponents/contact';
 import NavBar from './components/functionalComponents/NavBar';
 import About from './components/functionalComponents/About'
 import Skills from './components/functionalComponents/skills';
@@ -20,6 +21,7 @@ function App() {
       </Routes>
       </BrowserRouter>
       <header className="App-header">
+        <contact/>
         <img src={logo} className="App-logo" alt="logo" />
         <p>
           Edit <code>src/App.js</code> and save to reload.
@@ -33,6 +35,9 @@ function App() {
           Learn React
         </a>
       </header>
+      <footer>
+        <h1>This is the contact</h1>
+      </footer>
     </div>
   );
 }
