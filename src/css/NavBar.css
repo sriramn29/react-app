@@ -4,8 +4,7 @@ ol{
     list-style-type: none;
     background-color: aqua;
     margin-top: 10px;
-    width: 90%;
-    border-radius: 25px;
-    margin-inline-start: 10px;
+    width: 100%;
+    border-radius: px;
     padding: 10px;
 }

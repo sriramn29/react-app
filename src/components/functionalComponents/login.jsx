@@ -27,9 +27,9 @@ const Login = () => {
     return(
         <>
             Count: {state.count}
-            <button onMouseOver={() => dispatch({type: 'increment'})}>+</button>
-            <button onMouseOver={() => dispatch({type: 'decrement'})}>-</button>
-            <button onMouseOver={() => dispatch({type: 'reset'})}>Reset</button>
+            <button onClick={() => dispatch({type: 'increment'})}>+</button>
+            <button onClick={() => dispatch({type: 'decrement'})}>-</button>
+            <button onClick={() => dispatch({type: 'reset'})}>Reset</button>
         </>
     )
 }

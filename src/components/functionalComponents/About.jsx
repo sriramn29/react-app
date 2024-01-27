@@ -8,7 +8,7 @@ const About = () => {
         <div>
             <h1>WelCome To {college}</h1>
             <button onDoubleClick = {updatingClg}>Update College Name</button>
-            <h1> </h1>
+            <h1></h1>
         </div>
     )
 }
